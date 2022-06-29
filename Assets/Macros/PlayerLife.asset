@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: PlayerLife
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":202.4113,"y":12.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-229.0,"y":-293.0},"guid":"571159b7-a99a-45b8-bda5-2b967849a8b1","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-39.0,"y":-251.0},"guid":"e3293363-a175-411f-8c48-e384fbebc344","$version":"A","$type":"Unity.VisualScripting.Update"},{"argumentCount":0,"defaultValues":{"name":{"$content":"Death","$type":"System.String"},"target":null},"position":{"x":474.0,"y":1.0},"guid":"4e282e00-3b16-4328-bc8f-081cb02cd2ff","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"13"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"tag":{"$content":1,"$type":"UnityEngine.Object"}},"position":{"x":30.0,"y":43.0},"guid":"d88a5e59-d35d-47f3-810f-1c38d1f12e82","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"15"},{"sourceUnit":{"$ref":"15"},"sourceKey":"target
+      ","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"8ce3e309-6c60-45b7-8b83-0a395d1ca9e6","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"Object","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"d32866d1-9311-48a0-8f11-6ee8e9cdd694","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 5f0267044eff80044a56703b8cbac487, type: 2}
+    - {fileID: 2909723706925541290, guid: 5abfa289e0e430a4ba55ab2b54f05ae3, type: 3}
